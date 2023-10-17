@@ -6,6 +6,8 @@ for i in range(N):
     a.append(randint(1, 99))
 print(a)
 
+print("Выберите сторону сортирвоки")
+
 for i in range(N - 1):
     for j in range(N - i - 1):
         if a[j] > a[j + 1]:
